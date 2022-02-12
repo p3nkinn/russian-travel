@@ -17,3 +17,22 @@
     grid-template-columns: 440px 1fr;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    margin-top: 73px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .place {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraph";
+  }
+}

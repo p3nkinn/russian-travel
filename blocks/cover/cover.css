@@ -27,4 +27,16 @@
   background-color: rgba(0, 0, 0, .8);
 }
 
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-top: 90px;
+    min-height: 480px;
+  }
+}
 
+@media screen and (max-width: 540px) {
+  .cover {
+    margin-top: 66px;
+    min-height: 200px;
+  }
+}

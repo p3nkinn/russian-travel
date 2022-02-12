@@ -12,3 +12,9 @@
 .intro__list span {
   font-weight: 400;
 }
+
+@media screen and (max-width: 540px) {
+  .intro__list {
+    margin-top: 34px;
+  }
+}

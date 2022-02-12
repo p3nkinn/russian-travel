@@ -3,10 +3,25 @@
   font-size: 18px;
   line-height: 29px;
   color: #FFFFFF;
+  margin: 0;
   margin-top: 48px;
   grid-area: paragraph;
 }
 
 .place__paragraph:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .place__paragraph {
+    margin-top: 32px;
+    padding: 0 16px 0 16px;
+  }
 }
