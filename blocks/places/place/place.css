@@ -1,0 +1,19 @@
+.place {
+  display: grid;
+  margin-top: 80px;
+  column-gap: 40px;
+  grid-template-columns: 460px 1fr;
+  grid-template-areas:
+    "title website"
+    "image paragraph";
+}
+
+.place:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+  }
+}
