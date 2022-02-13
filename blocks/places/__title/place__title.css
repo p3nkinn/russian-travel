@@ -11,6 +11,7 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    width: 330px;
   }
 }
 
@@ -19,5 +20,6 @@
     font-size: 32px;
     line-height: 35px;
     padding: 0 16px 0 16px;
+    max-width: 288px;
   }
 }
