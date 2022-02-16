@@ -41,10 +41,9 @@
 @import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-@import url(../blocks/places/__paragraph/_text/places__paragraph_text.css);
+@import url(../blocks/places/__paragraph-text/places__paragraph-text.css);
 
 /* Cover */
-
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__image/cover__image.css);
