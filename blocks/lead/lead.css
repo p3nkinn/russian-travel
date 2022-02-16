@@ -5,14 +5,14 @@
   width: calc(100% - 48px*2);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .lead {
     padding-top: 48px;
     max-width: 928px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .lead {
     width: 100%;
   }

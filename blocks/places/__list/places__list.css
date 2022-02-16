@@ -1,41 +1,5 @@
 .places__list {
-  display: grid;
-  margin-top: 80px;
-  column-gap: 40px;
-  grid-template-columns: 460px 1fr;
-  grid-template-areas:
-    "title website"
-    "image paragraph";
-}
-
-.places__list:first-child {
-  margin-top: 0;
-}
-
-@media screen and (max-width: 1023px) {
-  .places__list {
-    grid-template-columns: 440px 1fr;
-    column-gap: 32px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .places__list {
-    grid-template-columns: 340px 1fr;
-    margin-top: 73px;
-    column-gap: 28px;
-  }
-}
-
-@media screen and (max-width: 610px) {
-  .places__list {
-    grid-template-columns: 320px;
-    justify-content: center;
-    margin-top: 50px;
-    grid-template-areas:
-    "title"
-    "website"
-    "image"
-    "paragraph";
-  }
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }

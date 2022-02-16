@@ -8,6 +8,7 @@
 @import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/header__lang-link.css);
+@import url(../blocks/header/__lang/_active/header__lang-link_active.css);
 
 /* Lead */
 
@@ -23,6 +24,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__number/intro__number.css);
 
 /* Photo-grid */
 

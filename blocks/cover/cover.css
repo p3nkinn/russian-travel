@@ -5,7 +5,7 @@
   margin-top: 92px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .cover {
     width: 100%;
   }
