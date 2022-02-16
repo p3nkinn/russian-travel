@@ -1,20 +1,13 @@
 .cover {
+  max-width: calc(1184px - 48px*2);
   width: 100%;
-  max-width: 1184px;
   margin: 0 auto;
   margin-top: 92px;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 1023px) {
   .cover {
-    margin-top: 90px;
-    min-height: 480px;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 540px) {
-  .cover {
-    margin-top: 66px;
-    min-height: 200px;
-  }
-}
